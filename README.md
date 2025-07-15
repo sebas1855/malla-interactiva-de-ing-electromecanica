@@ -1,1 +1,0 @@
-# malla-interactiva-de-ing-electromecanica
