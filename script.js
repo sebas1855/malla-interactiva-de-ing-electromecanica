@@ -1,35 +1,35 @@
 body {
-  font-family: sans-serif;
-  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
   text-align: center;
   padding: 20px;
 }
 
 h1 {
+  color: #333;
   margin-bottom: 30px;
-  color: #222;
 }
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 15px;
   max-width: 1200px;
   margin: 0 auto;
 }
 
 .semestre {
+  padding: 15px;
   border-radius: 10px;
   color: white;
-  padding: 10px;
   cursor: pointer;
   transition: 0.3s;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.15);
   text-align: left;
 }
 
 .semestre:hover {
-  transform: scale(1.03);
+  transform: scale(1.02);
 }
 
 .rojo { background-color: #e74c3c; }
@@ -39,11 +39,11 @@ h1 {
 .materias {
   display: none;
   margin-top: 10px;
-  padding-left: 15px;
-  font-size: 0.95em;
+  padding-left: 10px;
 }
 
 .materias ul {
+  list-style: disc;
   padding-left: 20px;
 }
 
